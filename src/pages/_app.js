@@ -1,4 +1,4 @@
-import Globals from '@/styles/globals'
+import '@/styles/globals.css'
 
 const App = ({ Component, pageProps }) => (
   <div>
