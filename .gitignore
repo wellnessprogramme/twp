@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+
+# next.js
+.next
+out
+sitemap.xml
+sw.js
+workbox-*.js
+
+# misc
+.vscode
+.DS_Store
+*.pem
+
+# debug
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+
+# vercel
+.vercel
