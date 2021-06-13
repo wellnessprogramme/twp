@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+      .pb-full {
+        padding-bottom: 100%;
+      }
+
+      .pb-50-calc {
+        padding-bottom: calc(50% - 15px);
+      }
+    
+    }
+  }
