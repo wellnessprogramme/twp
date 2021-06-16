@@ -1,20 +1,17 @@
 import Logo from '@/components/Logo'
 
-
 // The classnames lib serves to concatenate css classes
 // Define primary variant and size medium as as default
 export default function Footer() {
   return (
-    <footer class="bg-primary">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col items-center">
-            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 py-4">
-                <Logo />
-            </a>
+    <footer className="bg-primary">
+      <div className="container flex flex-col flex-wrap items-center p-5 mx-auto">
+        <a className="flex items-center py-4 mb-4 font-medium text-gray-900 title-font md:mb-0">
+          <Logo />
+        </a>
 
-            <span class="font-light text-white py-4">The Wellness Programme &copy; 2020</span>
-
-        </div>
+        <span className="py-4 font-light text-white">The Wellness Programme &copy; 2020</span>
+      </div>
     </footer>
   )
 }
-
