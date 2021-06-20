@@ -1,5 +1,5 @@
-import cn from 'classnames'
+import cn from 'classNames'
 
 export default function Label({ label }) {
-    return <label className="leading-7 text-sm text-gray-600">{label}</label>
-  }
+  return <label className="text-sm leading-7 text-gray-600">{label}</label>
+}
