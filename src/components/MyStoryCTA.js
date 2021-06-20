@@ -5,11 +5,11 @@ import Button from './Button'
 // Define primary variant and size medium as as default
 export default function MyStoryCTA() {
   return (
-    <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-col text-center w-full mb-10">
-            <h1 class="sm:text-5xl text-5xl font-bold title-font mb-4 text-gray-900">Hi, I'm Jade!</h1>
-            <p class="lg:w-2/3 my-5 mx-auto leading-relaxed text-base">I know how it feels to wake up everyday plagued by symptoms, to plan your life around your illness and to be left helpless when no one can give you answers.
+    <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+            <div className="flex flex-col text-center w-full mb-10">
+            <h1 className="sm:text-5xl text-5xl font-bold title-font mb-4 text-gray-900">Hi, I'm Jade!</h1>
+            <p className="lg:w-2/3 my-5 mx-auto leading-relaxed text-base">I know how it feels to wake up everyday plagued by symptoms, to plan your life around your illness and to be left helpless when no one can give you answers.
 
 That’s why I spent 6 years searching for a solution, to learn what Doctors couldn’t tell me. I visited experts across the U.K and America, I studied courses and read books like my life depended on it – because it did.
 
@@ -18,7 +18,7 @@ Now, everything I’ve learnt, I’ve put into the Wellness Programme. I decided
 I promise to help you in every way that I can and to be there for you every step of the way. Let’s go on a journey together…</p>
             </div>
 
-            <Button variant="ghost" position="center">Read My Story</Button>
+            <Button variant="ghost" position="center" children="Read My Story" />
         </div>
     </section>
   )

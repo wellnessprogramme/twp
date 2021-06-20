@@ -1,9 +1,10 @@
-import Button from "@/components/Button"
 import Navbar from "@/components/Navbar"
 import Hero from "@/components/Hero"
-import MyStoryCTA from "@/components/MyStoryCTA"
 import ProgrammesGrid from "@/components/ProgrammesGrid"
+import FreeProgrammes from "@/components/FreeProgrammes"
 import Footer from "@/components/Footer"
+import FAQ from "@/components/Faq"
+
 
 
 export default function IndexPage() {
@@ -11,9 +12,7 @@ export default function IndexPage() {
     <div>
 
       <Navbar />
-      <Hero />
-      <MyStoryCTA />
-      <ProgrammesGrid />
+      <FAQ />
       <Footer />
     </div>
   )

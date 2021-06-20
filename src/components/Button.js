@@ -5,7 +5,7 @@ export default function Button({ children, variant = 'primary', size = 'medium',
   return (
     <button
       // Default styles at the beginning
-      className={cn('p-4 text-md font-bold rounded items-center transition duration-200 ease-in-out', {
+      className={cn('p-3 text-md font-bold rounded items-center transition duration-200 ease-in-out', {
         // if the variant is equal to 'primary', apply the styles on the left
         'bg-primary text-white': variant === 'primary',
         'bg-blue-400 text-blue-900': variant === 'secondary',
