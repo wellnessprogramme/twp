@@ -2,7 +2,6 @@ import Logo from '@/components/Logo'
 import cn from 'classnames'
 
 
-
 // The classnames lib serves to concatenate css classes
 // Define primary variant and size medium as as default
 export default function Footer() {
@@ -13,10 +12,8 @@ export default function Footer() {
                 <Logo />
             </a>
 
-            <span className="font-light text-white py-4">The Wellness Programme &copy; 2020</span>
-
-        </div>
+        <span className="py-4 font-light text-white">The Wellness Programme &copy; 2020</span>
+      </div>
     </footer>
   )
 }
-

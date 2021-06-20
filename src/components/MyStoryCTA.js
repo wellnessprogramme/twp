@@ -6,6 +6,7 @@ import Button from './Button'
 export default function MyStoryCTA() {
   return (
     <section className="text-gray-600 body-font">
+
         <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-10">
             <h1 className="sm:text-5xl text-5xl font-bold title-font mb-4 text-gray-900">Hi, I'm Jade!</h1>
@@ -19,7 +20,7 @@ I promise to help you in every way that I can and to be there for you every step
             </div>
 
             <Button variant="ghost" position="center" children="Read My Story" />
-        </div>
+
     </section>
   )
 }
