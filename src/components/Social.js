@@ -24,7 +24,7 @@ export default function Social() {
         const Icon = Icons[label]
         return (
           <li
-            className="p-2 text-black transition duration-200 border-2 border-gray-300 rounded-full hover:text-primary"
+            className="p-2 text-black transition duration-300 border-2 border-gray-300 rounded-full hover:text-primary"
             key={url}
           >
             <Link href={url}>

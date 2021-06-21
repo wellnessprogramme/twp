@@ -8,9 +8,9 @@ function IconLink({ icon, title, label, href }) {
     <div className="flex flex-col items-center space-y-3">
       {icon}
       <p className="font-bold uppercase">{title}</p>
-      <Link href={href}>
-        <a className="hover:text-gray-400">{label}</a>
-      </Link>
+      <NextLink href={href}>
+        <a className="transition duration-300 hover:text-gray-400">{label}</a>
+      </NextLink>
     </div>
   )
 }
@@ -18,7 +18,7 @@ function IconLink({ icon, title, label, href }) {
 function Link({ children, href }) {
   return (
     <NextLink href={href}>
-      <a className="transition-colors duration-200 hover:text-gray-400">{children}</a>
+      <a className="transition-colors duration-300 hover:text-gray-400">{children}</a>
     </NextLink>
   )
 }
