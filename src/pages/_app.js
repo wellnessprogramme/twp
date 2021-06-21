@@ -1,9 +1,11 @@
 import '@/styles/globals.css'
 
+import { AuthProvider } from '@/contexts/authContext'
+
 const App = ({ Component, pageProps }) => (
-  <div>
+  <AuthProvider>
     <Component {...pageProps} />
-  </div>
+  </AuthProvider>
 )
 
 export default App

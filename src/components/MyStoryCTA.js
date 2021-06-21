@@ -1,8 +1,5 @@
-import cn from 'classNames'
 import Button from './Button'
 
-// The classNames lib serves to concatenate css classNames
-// Define primary variant and size medium as as default
 export default function MyStoryCTA() {
   return (
     <section className="text-gray-600 body-font">
