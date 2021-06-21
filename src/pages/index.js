@@ -1,21 +1,9 @@
-import Navbar from '@/components/Navbar'
-import Hero from '@/components/Hero'
-import ProgrammesGrid from '@/components/ProgrammesGrid'
-import FreeProgrammes from '@/components/FreeProgrammes'
-import Footer from '@/components/Footer'
-import FAQ from '@/components/Faq'
-import MyStoryCTA from '@/components/MyStoryCTA'
+import { Layout } from '@/components/Layout'
 
 export default function IndexPage() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <MyStoryCTA />
-      <ProgrammesGrid />
-      <FreeProgrammes />
-      <FAQ />
-      <Footer />
-    </div>
+    <Layout>
+      <h1>Ola</h1>
+    </Layout>
   )
 }

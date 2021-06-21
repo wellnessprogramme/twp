@@ -1,7 +1,7 @@
+import camelcaseKeys from 'camelcase-keys'
 import cookie from 'js-cookie'
 import { useRouter } from 'next/router'
 import { createContext, useEffect, useState } from 'react'
-import camelcaseKeys from 'camelcase-keys'
 import snakecaseKeys from 'snakecase-keys'
 
 import { directus } from '@/lib/directus'

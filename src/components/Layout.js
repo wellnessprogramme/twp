@@ -1,12 +1,8 @@
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+import Footer from './Footer'
 
 export function Layout({ children }) {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
       <main>{children}</main>
       <Footer />
     </>
