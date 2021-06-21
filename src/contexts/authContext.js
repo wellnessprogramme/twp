@@ -1,8 +1,6 @@
-import camelcaseKeys from 'camelcase-keys'
 import cookie from 'js-cookie'
 import { useRouter } from 'next/router'
 import { createContext, useEffect, useState } from 'react'
-import snakecaseKeys from 'snakecase-keys'
 
 import { directus } from '@/lib/directus'
 
@@ -16,7 +14,7 @@ function setCookie() {
 }
 
 async function recoverUserInformation() {
-  const user = await directus.users.me.read().then(r => camelcaseKeys(r))
+  const user = await directus.users.me.read()
   return user
 }
 
@@ -70,7 +68,7 @@ export const AuthProvider = ({ children }) => {
   async function signUp(data) {
     data.role = process.env.NEXT_PUBLIC_ROLE_ID
     try {
-      await directus.users.createOne(snakecaseKeys(data))
+      await directus.users.createOne(data)
     } catch (err) {
       console.log(err)
       return
