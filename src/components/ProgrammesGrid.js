@@ -1,8 +1,5 @@
-import cn from 'classNames'
 import Button from '@/components/Button'
 
-// The classNames lib serves to concatenate css classNamees
-// Define primary variant and size medium as as default
 export default function ProgrammesGrid() {
   return (
     <section>

@@ -1,5 +1,3 @@
-import cn from 'classNames'
-
 export default function Header({ image, title, subtitle }) {
   return (
     <header

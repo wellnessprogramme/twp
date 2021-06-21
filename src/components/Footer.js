@@ -1,8 +1,5 @@
 import Logo from '@/components/Logo'
-import cn from 'classNames'
 
-// The classNames lib serves to concatenate css classNamees
-// Define primary variant and size medium as as default
 export default function Footer() {
   return (
     <footer className="bg-primary">

@@ -1,4 +1,3 @@
-import cn from 'classNames'
 import Button from './Button'
 
 export default function Hero() {

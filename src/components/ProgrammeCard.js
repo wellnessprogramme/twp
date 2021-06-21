@@ -1,8 +1,5 @@
-import cn from 'classNames'
 import Button from '@/components/Button'
 
-// The classNamenames lib serves to concatenate css classNamees
-// Define primary variant and size medium as as default
 export default function ProgrammesCard() {
   return (
     <section className="container px-8 m-auto">

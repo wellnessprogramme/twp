@@ -1,4 +1,3 @@
-import cn from 'classNames'
 import Label from './Label'
 
 export function Input({ id, label, ...props }) {

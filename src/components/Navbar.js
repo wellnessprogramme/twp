@@ -1,9 +1,6 @@
-import cn from 'classnames'
 import Logo from '@/components/Logo'
 import Button from '@/components/Button'
 
-// The classnames lib serves to concatenate css classnames
-// Define primary variant and size medium as as default
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 text-gray-600 body-font bg-primary">
