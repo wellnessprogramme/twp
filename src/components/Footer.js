@@ -33,7 +33,7 @@ function LinksGroup({ children }) {
 
 export default function Footer() {
   return (
-    <footer className="py-12 bg-gray-50">
+    <footer className="py-12 md:py-20 bg-gray-50">
       <div className="max-w-screen-xl px-6 mx-auto space-y-10 text-center">
         <div className="flex flex-col space-y-8 text-sm text-gray-500 md:justify-around md:space-y-0 md:flex-row">
           <IconLink
@@ -52,7 +52,7 @@ export default function Footer() {
         </div>
 
         <Social />
-        <div className="flex md:justify-center">
+        <div className="flex md:space-x-12 md:justify-center">
           <LinksGroup>
             <Link href="/">Home</Link>
             <Link href="/programmes">Programmes</Link>

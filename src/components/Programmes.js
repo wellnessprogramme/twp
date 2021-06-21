@@ -5,7 +5,7 @@ import { imageParse } from '@/lib/imageParse'
 
 export default function Programmes({ programmes }) {
   return (
-    <div className="grid max-w-screen-xl gap-8 px-6 mx-auto my-16 md:grid-cols-2">
+    <div className="grid max-w-screen-xl gap-8 px-6 mx-auto my-16 md:my-24 md:grid-cols-2">
       {programmes?.map(item => (
         <div
           className="overflow-hidden transition duration-300 transform rounded-lg md:first:row-span-2 hover:shadow-xl hover:-translate-y-1"
@@ -40,7 +40,7 @@ export default function Programmes({ programmes }) {
         </div>
       ))}
 
-      <div className="mx-auto md:col-span-2">
+      <div className="mx-auto md:mt-6 md:col-span-2">
         <Link href="/programmes">
           <a className="pb-2 text-sm font-black text-center uppercase transition duration-300 border-b-2 border-primary text-primary hover:opacity-70">
             View all programmes

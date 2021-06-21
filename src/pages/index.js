@@ -1,10 +1,12 @@
 import { Layout } from '@/components/Layout'
+import MyStory from '@/components/MyStory'
 import Programmes from '@/components/Programmes'
 import { directus } from '@/lib/directus'
 
 export default function IndexPage({ programmes }) {
   return (
     <Layout>
+      <MyStory />
       <Programmes programmes={programmes} />
     </Layout>
   )
