@@ -28,7 +28,7 @@ export default function Programmes({ programmes }) {
               </a>
             </Link>
 
-            <p className="md:hidden">{item.description}</p>
+            <p className="text-white">{item.description}</p>
             <Link href={`/programmes/${item.slug}`}>
               <a className="block">
                 <button className="w-full md:w-auto px-5 font-medium py-1.5 text-sm uppercase border-2 rounded border-primary text-primary md:border-white md:hover:text-black transition duration-300 md:hover:bg-white md:text-white">

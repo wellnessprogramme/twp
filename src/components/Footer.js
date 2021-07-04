@@ -35,21 +35,6 @@ export default function Footer() {
   return (
     <footer className="py-12 md:py-20 bg-gray-50">
       <div className="max-w-screen-xl px-6 mx-auto space-y-10 text-center">
-        <div className="flex flex-col space-y-8 text-sm text-gray-500 md:justify-around md:space-y-0 md:flex-row">
-          <IconLink
-            icon={<BsQuestionCircle size={38} className="text-primary" />}
-            title="Have questions?"
-            label="Visit Our FAQs"
-            href="/faq"
-          />
-
-          <IconLink
-            icon={<BsEnvelope size={38} className="text-primary" />}
-            title="Contact me"
-            label="thewellnessprogramme@outlook.com"
-            href="mailto:thewellnessprogramme@outlook.com"
-          />
-        </div>
 
         <Social />
         <div className="flex md:space-x-12 md:justify-center">

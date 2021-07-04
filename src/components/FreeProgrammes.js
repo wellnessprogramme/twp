@@ -85,18 +85,15 @@ export default function FreeProgrammes({ programmes }) {
         ))}
       </div>
       <div className="max-w-screen-md px-6 mx-auto mt-16 space-y-6 text-center md:space-y-10">
-        <h3 className="text-lg font-black md:text-3xl">
-          Get exclusive content sent directly by me
-        </h3>
         <p className="text-gray-700 md:leading-9 md:text-lg">
           Please enter your details below and all 3 programmes will be sent direct to your email
-          address. Please don&apos;t forget to check your junk folder.
+          address. Don't forget to check your junk folder.
         </p>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4 lg:flex-row">
           <Input
-            placeholder="Fist name"
-            aria-label="Fist name"
+            placeholder="First name"
+            aria-label="First name"
             type="text"
             required
             id="firstName"
