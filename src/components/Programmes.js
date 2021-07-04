@@ -16,6 +16,7 @@ export default function Programmes({ programmes }) {
               src={imageParse(item.featured_image)}
               layout="fill"
               objectFit="cover"
+              objectPosition="top"
               className="z-0"
               alt={item.title}
             />
